@@ -430,7 +430,7 @@ window.addEventListener("resize", () => {
 
 function animate() {
   requestAnimationFrame(animate);
-  globe.rotation.y += 0.002;
+  globe.rotation.y += 0.001;
   renderer.render(scene, camera);
 }
 animate();
